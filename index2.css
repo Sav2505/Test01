@@ -1,0 +1,90 @@
+/* General body editing */
+
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main {
+    background-color: rgb(124, 246, 238);
+    height: 96vh;
+  }
+  
+  .squares-container {
+    height: 40%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    background-color: white;
+    justify-content: right;
+    align-items: flex-start;
+    gap: 10px;
+  
+  }
+  
+  .squares {
+    height: 20%;
+    width: 20%;
+    margin-right: 2px;
+    line-height: 0;
+    border: 1px solid black;
+  }
+  
+  /* Tagging all elements h1 */
+  h1 {
+    color: blue;
+    /* background-color: white; */
+  }
+  
+  /* Attribute of an element */
+  h1:hover {
+    color: white;
+    background-color: blueviolet;
+  }
+  
+  /* Classname tag */
+  .bla {
+    color: white;
+    background-color: brown;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  
+  /* Attribute of className tag */
+  .bla:hover {
+    color: black;
+    background-color: azure;
+  }
+  
+  /* First layer Children */
+  .div1>p {
+    background-color: chocolate;
+  }
+  
+  .div1>p:hover {
+    background-color: rgb(83, 36, 2);
+  }
+  
+  /* All Childs of div2 which is p*/
+  .div2 p {
+    background-color: rgb(210, 30, 150);
+  }
+  
+  .div2 p:hover {
+    background-color: rgb(96, 5, 65);
+  }
+  
+  /* Is attribute contains string 
+  p[class*="class_group_a"]
+  */
+  
+  /* Font sizes: default = 16px = 1em = 100% */
+  /* Font sizes: if px= 32px = 2em = 200% */
+  
+  /* em related to the font-size in his family */
+  
+  /* % Will be related to the container of it - the parent*/
+  
+  /* rem is the replacer for em that isn't related of its parent, but related to the root (html default font (16px)) */
